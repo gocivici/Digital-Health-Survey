@@ -1,0 +1,18 @@
+body {
+    --primary: #e4067e;
+--background: #ffffff;
+--background-dim: #f3f3f3;
+--background-dim-light: #f9f9f9;
+--primary-foreground: #ffffff;
+--foreground: #161616;
+--base-unit: 8px;
+
+  }
+
+  .sd-root-modern.sd-root-modern--mobile .sd-title.sd-container-modern__title {
+        flex-direction: none;
+    }
+    
+    .sd-root-modern.sd-root-modern--mobile .sd-header__text {
+         min-width: none;
+    }
