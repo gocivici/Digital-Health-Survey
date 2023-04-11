@@ -10,10 +10,10 @@ const surveyJson = {
     "logoPosition": "right",
     "completedHtmlOnCondition": [{
         "expression": "{summ} = 0",
-        "html": "</br> <img src='https://media.istockphoto.com/id/817260662/photo/tv-test-card-or-test-pattern-sd-4-3-ratio-generic.jpg?s=170667a&w=0&k=20&c=GVIhs2lQT4QFLi9gvqylgykzqv1C7drUwgwpZ0HdyIg='>  </br> <h3>You got {summ} points, Consider studying something else :( </h3> </br>  "
+        "html": "</br> <img src='https://media.istockphoto.com/id/817260662/photo/tv-test-card-or-test-pattern-sd-4-3-ratio-generic.jpg?s=170667a&w=0&k=20&c=GVIhs2lQT4QFLi9gvqylgykzqv1C7drUwgwpZ0HdyIg='>  </br> <h3>You got {summ} points, Consider studying something else :( </h3> </br> <iframe src='https://docs.google.com/forms/d/e/1FAIpQLSfCnrhmJrkB40SbpPBZWCqqg6WW6EyZbzQBYn4K1FpLwU0mlA/viewform?embedded=true' style = \"width:100%; height:500px;\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…</iframe> "
       }, {
         "expression": " {summ} > 0",
-        "html": "</br> <img src='https://media.istockphoto.com/id/817260662/photo/tv-test-card-or-test-pattern-sd-4-3-ratio-generic.jpg?s=170667a&w=0&k=20&c=GVIhs2lQT4QFLi9gvqylgykzqv1C7drUwgwpZ0HdyIg='> </br> <h3>You got {summ} points, It appears that Digital Health is your destiny. Check out how to apply </h3> <br>  "
+        "html": "</br> <img src='https://media.istockphoto.com/id/817260662/photo/tv-test-card-or-test-pattern-sd-4-3-ratio-generic.jpg?s=170667a&w=0&k=20&c=GVIhs2lQT4QFLi9gvqylgykzqv1C7drUwgwpZ0HdyIg='> </br> <h3>You got {summ} points, It appears that Digital Health is your destiny. Check out how to apply </h3> <br> <iframe src='https://docs.google.com/forms/d/e/1FAIpQLSfCnrhmJrkB40SbpPBZWCqqg6WW6EyZbzQBYn4K1FpLwU0mlA/viewform?embedded=true' style = \"width:100%; height:500px;\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…</iframe>  "
       }],
     "pages": [
       {
@@ -244,7 +244,7 @@ function alertResults (sender) {
     alert(results);
 }
 
-survey.onComplete.add(alertResults);
+// survey.onComplete.add(alertResults);
 
 $(function() {
     $("#surveyContainer").Survey({ model: survey });
