@@ -22,7 +22,7 @@ const surveyJson = {
           {
             "type": "image",
             "name": "banner",
-            "imageLink": "https://media.istockphoto.com/id/817260662/photo/tv-test-card-or-test-pattern-sd-4-3-ratio-generic.jpg?s=170667a&w=0&k=20&c=GVIhs2lQT4QFLi9gvqylgykzqv1C7drUwgwpZ0HdyIg="
+            "imageLink": "Question_1.png"
             
             
           },
@@ -63,7 +63,7 @@ const surveyJson = {
         {
             "type": "image",
             "name": "banner",
-            "imageLink": "https://media.istockphoto.com/id/817260662/photo/tv-test-card-or-test-pattern-sd-4-3-ratio-generic.jpg?s=170667a&w=0&k=20&c=GVIhs2lQT4QFLi9gvqylgykzqv1C7drUwgwpZ0HdyIg="
+            "imageLink": "Question_2.png"
             
             
           },
@@ -116,24 +116,27 @@ const surveyJson = {
         "hideNumber": true,
         "choices": [
          {
-          "value": "4",
+          "value": "5",
           "text": "Medical or healthcare"
          },
          {
-          "value": "3",
+          "value": "4",
           "text": "Information technology or computer science"
          },
          {
-          "value": "2",
+          "value": "3",
           "text": "Business or management"
          },
          {
-          "value": "1",
+          "value": "2",
           "text": "Law or policy"
+         },
+         {
+          "value": "1",
+          "text": "Other"
          }
-        ],
-        "showNoneItem": true,
-        "noneText": "Other"
+         
+        ]
         
        }
       ],
