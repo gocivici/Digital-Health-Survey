@@ -8,6 +8,19 @@ body {
 --base-unit: 7px;
 
   }
+  @media only screen and (max-width: 380px) {
+    body {
+        --base-unit: 6px;
+    }
+  }
+
+  @media only screen and (min-width: 900px) {
+    body {
+        width: 700px;
+        margin: auto;
+        --base-unit: 8px;
+    }
+  }
 
   .sd-root-modern.sd-root-modern--mobile .sd-title.sd-container-modern__title {
         flex-direction: none;
