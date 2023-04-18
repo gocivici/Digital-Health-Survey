@@ -10,10 +10,10 @@ const surveyJson = {
     "logoPosition": "right",
     "completedHtmlOnCondition": [{
         "expression": "{summ} = 0",
-        "html": "</br> <img src='https://media.istockphoto.com/id/817260662/photo/tv-test-card-or-test-pattern-sd-4-3-ratio-generic.jpg?s=170667a&w=0&k=20&c=GVIhs2lQT4QFLi9gvqylgykzqv1C7drUwgwpZ0HdyIg='>  </br> <h3>Consider studying something else :( </h3> </br> <iframe src='https://docs.google.com/forms/d/e/1FAIpQLSfCnrhmJrkB40SbpPBZWCqqg6WW6EyZbzQBYn4K1FpLwU0mlA/viewform?embedded=true' style = \"width:100%; height:500px;\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…</iframe> "
+        "html": "</br> <h3>Consider studying something else :( </h3> </br> <iframe src='https://docs.google.com/forms/d/e/1FAIpQLSfCnrhmJrkB40SbpPBZWCqqg6WW6EyZbzQBYn4K1FpLwU0mlA/viewform?embedded=true' style = \"width:100%; height:500px;\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…</iframe> "
       }, {
         "expression": " {summ} > 0",
-        "html": "</br> <img src='https://media.istockphoto.com/id/817260662/photo/tv-test-card-or-test-pattern-sd-4-3-ratio-generic.jpg?s=170667a&w=0&k=20&c=GVIhs2lQT4QFLi9gvqylgykzqv1C7drUwgwpZ0HdyIg='> </br> <h3>It appears that Digital Health is your destiny. Check out how to apply here: </h3> <br><a href=\"url\">https://taltech.ee/en/masters-programmes/digital-health</a> <br> <iframe src='https://docs.google.com/forms/d/e/1FAIpQLSfCnrhmJrkB40SbpPBZWCqqg6WW6EyZbzQBYn4K1FpLwU0mlA/viewform?embedded=true' style = \"width:100%; height:500px;\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…</iframe>  "
+        "html": "</br> <h3>It appears that Digital Health is your destiny! Check out how to apply here: </h3> <br><a href=\"url\">https://taltech.ee/en/masters-programmes/digital-health</a> <br> <iframe src='https://docs.google.com/forms/d/e/1FAIpQLSfCnrhmJrkB40SbpPBZWCqqg6WW6EyZbzQBYn4K1FpLwU0mlA/viewform?embedded=true' style = \"width:100%; height:500px;\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…</iframe>  "
       }],
     "pages": [
       {
@@ -22,7 +22,7 @@ const surveyJson = {
           {
             "type": "image",
             "name": "banner",
-            "imageLink": "Question_1.png",
+            "imageLink": "Question_1.webp",
             "imageWidth": "100%",
             "imageHeight": "100%",
 
@@ -65,7 +65,7 @@ const surveyJson = {
         {
             "type": "image",
             "name": "banner",
-            "imageLink": "Question_2.png",
+            "imageLink": "Question_2.webp",
             "imageWidth": "100%",
             "imageHeight": "100%"
             
@@ -109,7 +109,7 @@ const surveyJson = {
         {
           "type": "image",
           "name": "banner",
-          "imageLink": "https://media.istockphoto.com/id/817260662/photo/tv-test-card-or-test-pattern-sd-4-3-ratio-generic.jpg?s=170667a&w=0&k=20&c=GVIhs2lQT4QFLi9gvqylgykzqv1C7drUwgwpZ0HdyIg=",
+          "imageLink": "Question_3.webp",
           "imageWidth": "100%",
           "imageHeight": "100%"
           
@@ -156,7 +156,7 @@ const surveyJson = {
         {
           "type": "image",
           "name": "banner",
-          "imageLink": "https://media.istockphoto.com/id/817260662/photo/tv-test-card-or-test-pattern-sd-4-3-ratio-generic.jpg?s=170667a&w=0&k=20&c=GVIhs2lQT4QFLi9gvqylgykzqv1C7drUwgwpZ0HdyIg=",
+          "imageLink": "Question_4.webp",
           "imageWidth": "100%",
           "imageHeight": "100%"
           
@@ -199,7 +199,7 @@ const surveyJson = {
           {
               "type": "image",
               "name": "banner",
-              "imageLink": "https://media.istockphoto.com/id/817260662/photo/tv-test-card-or-test-pattern-sd-4-3-ratio-generic.jpg?s=170667a&w=0&k=20&c=GVIhs2lQT4QFLi9gvqylgykzqv1C7drUwgwpZ0HdyIg=",
+              "imageLink": "Question_5.webp",
               "imageWidth": "100%",
               "imageHeight": "100%"
               
