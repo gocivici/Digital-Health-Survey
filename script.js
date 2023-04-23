@@ -13,7 +13,7 @@ const surveyJson = {
         "html": "</br> <h3>Consider studying something else :( </h3> </br> <iframe src='https://docs.google.com/forms/d/e/1FAIpQLSfCnrhmJrkB40SbpPBZWCqqg6WW6EyZbzQBYn4K1FpLwU0mlA/viewform?embedded=true' style = \"width:100%; height:500px;\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…</iframe> "
       }, {
         "expression": " {summ} > 0",
-        "html": "</br> <h3>It appears that Digital Health is your destiny! Check out how to apply here: </h3> <br><a href=\"url\">https://taltech.ee/en/masters-programmes/digital-health</a> <br> <iframe src='https://docs.google.com/forms/d/e/1FAIpQLSfCnrhmJrkB40SbpPBZWCqqg6WW6EyZbzQBYn4K1FpLwU0mlA/viewform?embedded=true' style = \"width:100%; height:500px;\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…</iframe>  "
+        "html": "</br> <h3>It appears that Digital Health is your destiny! Check out how to apply here: </h3> <br><a href=\"https://taltech.ee/en/masters-programmes/digital-health\">https://taltech.ee/en/masters-programmes/digital-health</a> <br> <iframe src='https://docs.google.com/forms/d/e/1FAIpQLSfCnrhmJrkB40SbpPBZWCqqg6WW6EyZbzQBYn4K1FpLwU0mlA/viewform?embedded=true' style = \"width:100%; height:500px;\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…</iframe>  "
       }],
     "pages": [
       {
